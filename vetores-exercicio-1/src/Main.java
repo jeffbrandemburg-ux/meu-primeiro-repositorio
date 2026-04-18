@@ -10,7 +10,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         Random random = new Random();
 
-        System.out.println("Seja Ben-vindo! \nPreencha o tamanho do seu vetor:");
+        System.out.println("Seja Bem-vindo! \nPreencha o tamanho do seu vetor:");
         Randomizer();
         System.out.println("Agora digite um nome:");
         reader();
@@ -69,10 +69,6 @@ public class Main {
 
         int contador = 0;
 
-        System.out.println();
-
-
-
 
         for (int y = 0; y < nome.length(); y++) {
                char letra = Character.toLowerCase(nome.charAt(y));
@@ -84,7 +80,7 @@ public class Main {
 
 
 
-            }System.out.println("A quantidade de Vogais é: " + contador);
+            }System.out.println("A quantidade de Vogais é/são: " + contador);
 
 
         }
