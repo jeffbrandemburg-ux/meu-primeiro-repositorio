@@ -9,20 +9,20 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Seja Ben-vindo! \nPreencha o tamanho do seu vetor:");
+        System.out.println("Seja Bem-vindo! \nPreencha o tamanho do seu vetor:");
 
         int size = scan.nextInt();
         double[] vetor = new double[size];
 
 
         for (int x = 0; x < size; x++) {
-            System.out.println("Digite um valor inteiro para posicao " + x + " do seu vetor:");
+            System.out.println("Digite um valor inteiro para posição " + x + " do seu vetor:");
             vetor[x] = scan.nextInt();
 
         }
         ;
 
-        System.out.println("Seus vetores sao:");
+        System.out.println("Seus vetores são:");
 
         for (int x = 0; x < size; x++) {
             System.out.println(vetor[x]);
@@ -40,12 +40,14 @@ public class Main {
             ;
 
         }
-        System.out.println("Seus vetores alterados sao:");
+        System.out.println("Seus vetores alterados são:");
 
         for (int x = 0; x < size; x++) {
             System.out.println(vetor[x]);
         }
+        scan.close();
     }
+
 }
 
 
